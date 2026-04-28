@@ -1,0 +1,40 @@
+﻿@model HealthcareApp1.Models.Patient
+
+<div class="container mt-5">
+    <div class="card p-4 shadow">
+        <h3>Edit Patient</h3>
+
+        <form method="post">
+            <input type="hidden" name="PatientID" value="@Model.PatientID" />
+
+            <input class="form-control mb-2" name="FirstName" value="@Model.FirstName" />
+            <input class="form-control mb-2" name="LastName" value="@Model.LastName" />
+            <select name="Gender" class="form-select">
+
+                @if (Model.Gender == "Male")
+                {
+                    <option value="Male" selected>Male</option>
+                }
+                else
+                {
+                    <option value="Male">Male</option>
+                }
+
+                @if (Model.Gender == "Female")
+                {
+                    <option value="Female" selected>Female</option>
+                }
+                else
+                {
+                    <option value="Female">Female</option>
+                }
+
+            </select>
+            <input class="form-control mb-2" name="Phone" value="@Model.Phone" />
+            <input class="form-control mb-2" name="Email" value="@Model.Email" />
+            <input class="form-control mb-2" name="Address" value="@Model.Address" />
+
+            <button class="btn btn-primary">Update</button>
+        </form>
+    </div>
+</div>

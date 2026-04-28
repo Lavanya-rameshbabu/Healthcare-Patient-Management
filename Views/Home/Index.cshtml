@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="container mt-5">
+
+    <h2 class="mb-4 text-center">Healthcare Dashboard</h2>
+
+    <div class="row">
+
+        <!-- Patient Count Card -->
+        <div class="col-md-4">
+            <div class="card shadow text-center p-4">
+                <h5>Total Patients</h5>
+                <h2 class="text-primary">@ViewBag.PatientCount</h2>
+            </div>
+        </div>
+
+        <!-- Add Patient -->
+        <div class="col-md-4">
+            <div class="card shadow text-center p-4">
+                <h5>Add Patient</h5>
+                <a href="/Patient/Create" class="btn btn-success mt-2">Add New</a>
+            </div>
+        </div>
+
+        <!-- View Patients -->
+        <div class="col-md-4">
+            <div class="card shadow text-center p-4">
+                <h5>Patient Records</h5>
+                <a href="/Patient/Index" class="btn btn-dark mt-2">View List</a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
