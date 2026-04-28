@@ -136,3 +136,4 @@ C:\Users\satik\source\repos\HealthcareApp1\HealthcareApp1\bin\Debug\net10.0\runt
 C:\Users\satik\source\repos\HealthcareApp1\HealthcareApp1\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\satik\source\repos\HealthcareApp1\HealthcareApp1\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\satik\source\repos\HealthcareApp1\HealthcareApp1\obj\Debug\net10.0\compressed\x3h8a0pec8-{0}-s5hmkonwpt-s5hmkonwpt.gz
+C:\Users\satik\source\repos\HealthcareApp1\HealthcareApp1\obj\Debug\net10.0\HealthcareApp1.sourcelink.json
