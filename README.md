@@ -32,6 +32,14 @@ A web application built using ASP.NET Core MVC to manage patient records efficie
 
 ---
 
+## 📸 Screenshots
+
+![Patient List](Screenshots/list.png)
+![Create Patient](Screenshots/create.png)
+![Pagination](Screenshots/pagination.png)
+
+---
+
 ## 💡 Key Highlights
 
 - Implemented pagination using OFFSET-FETCH
