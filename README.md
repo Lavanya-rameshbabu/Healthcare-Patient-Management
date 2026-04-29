@@ -35,7 +35,7 @@ A web application built using ASP.NET Core MVC to manage patient records efficie
 ## 📸 Screenshots
 
 ![Patient List](Screenshots/list.png)
-![Create Patient](Screenshots/Create.png)
+![Create Patient](Screenshots/create.png)
 ![Filter](Screenshots/Filter.png)
 ![Pagination](Screenshots/pagination.png)
 ![Home](Screenshots/HOME.png)
